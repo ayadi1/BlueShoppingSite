@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*header style*/
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url("desktop/image-hero.jpg");
+}
+.conteneur {
+  width: 90%;
+  margin: auto;
+}
+header div nav {
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+header div nav .link {
+  position: relative;
+  right: -48%;
+  top: 57px;
+}
+header div nav .link ul{
+  display: flex;
+  list-style-type:none
+}
+header div nav .link ul li a{
+  text-decoration: none;
+}
+
+header div nav .link a {
+  color: white;
+  margin-right: 22px;
+  font-size: 22px;
+  text-decoration: none;
+}
+header div nav .title {
+  margin-top: 57px;
+}
+header div nav .title h2 {
+  font-size: 35px;
+  color: white;
+}
+header div .header_descreption {
+  width: 51%;
+  height: 279px;
+  margin-top: 72px;
+  border: 3px solid white;
+}
+header div .header_descreption p {
+  font-size: 82px;
+  margin-left: 45px;
+  color: white;
+}
+/*main style*/
+main section .F_articl {
+  width: 100%;
+  height: 650px;
+}
+main section .F_articl #imgmain {
+  width: 780px;
+  margin-top: 100px;
+  height: 540px;
+  position: relative;
+  z-index: 1;
+}
+main section .F_articl #imgmain img {
+  width: 100%;
+}
+main section .F_articl #textDescription {
+  width: 699px;
+  height: 470px;
+  position: relative;
+  z-index: 2;
+  top: -361px;
+  right: -521px;
+  background-color: white;
+  overflow: hidden;
+}
+main section .F_articl #textDescription h2 {
+  font-size: 60px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+main section .F_articl #textDescription p {
+  margin-left: 100px;
+  font-size: 25px;
+}
+/*Big bar sell */
+main section .bigBar {
+  display: flex;
+}
+main section .bigBar #titlSell {
+  width: 50%;
+}
+main section .bigBar #titlSell h2 {
+  font-size: 45px;
+}
+main section .bigBar #buttonSell {
+  width: 50%;
+}
+main section .bigBar #buttonSell input {
+  float: right;
+  margin-top: 5px;
+  width: 150px;
+  height: 37px;
+}
+main section .bigBar #buttonSell input:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+/*creations*/
+
+main section .creations .Row1 {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 75px;
+}
+main section .creations .Row1 #crea1 {
+  background-image: url("desktop/image-deep-earth.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row1 #crea2 {
+  background-image: url("desktop/image-night-arcade.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row1 #crea3 {
+  background-image: url("desktop/image-soccer-team.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row1 #crea4 {
+  background-image: url("desktop/image-grid.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row2 {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 75px;
+}
+main section .creations .Row2 #crea5 {
+  background-image: url("desktop/image-from-above.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row2 #crea6 {
+  background-image: url("desktop/image-pocket-borealis.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row2 #crea7 {
+  background-image: url("desktop/image-curiosity.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row2 #crea8 {
+  background-image: url("desktop/image-fisheye.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  margin-right: 5%;
+  height: 450px;
+}
+main section .creations .Row1 #crea1 p,
+main section .creations .Row1 #crea2 p,
+main section .creations .Row1 #crea3 p,
+main section .creations .Row1 #crea4 p,
+main section .creations .Row2 #crea5 p,
+main section .creations .Row2 #crea6 p,
+main section .creations .Row2 #crea7 p,
+main section .creations .Row2 #crea8 p {
+  color: white;
+  font-size: 50px;
+  margin-top: 330px;
+  margin-left: 10px;
+}
+main section .creations .Row1 #crea1:hover {
+  box-shadow: inset 0px 0px 205px 80px rgb(223, 219, 194);
+  cursor: pointer;
+}
+main section .creations .Row1 #crea1 p:hover {
+  color: black;
+}
+/*footer style*/
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  background-color: black;
+}
+/*footer style*/
+footer section {
+  display: flex;
+}
+footer section article nav {
+  position: relative;
+  top: 26px;
+}
+
+footer section article nav .titleB h2 {
+  color: white;
+  margin-bottom: 8px;
+}
+footer section article nav .linkB a {
+  text-decoration: none;
+  color: white;
+  margin-right: 6px;
+}
+footer section article #copy {
+  margin-top: 50px;
+  position: relative;
+  right: -380px;
+}
+footer section article #copy p {
+  color: white;
+  font-size: 30px;
+}
+/*media style*/
+
+@media only screen and (max-width: 800px) {
+  /*header style*/
+  header {
+    overflow: hidden;
+  }
+  .conteneur {
+    width: 95%;
+  }
+  header div nav {
+    display: inherit;
+  }
+  header div nav .link {
+    position: initial;
+  }
+
+  header div nav .link a {
+    margin-right: 15px;
+  }
+  header div nav .title {
+    margin-top: 5px;
+  }
+
+  header div .header_descreption {
+    width: 98%;
+    margin-top: 20px;
+  }
+  header div .header_descreption p {
+    margin-left: 10px;
+    font-size: 69px;
+  }
+  /**/
+
+  main section .F_articl #imgmain {
+    width: 98%;
+    margin-top: 55px;
+    height: auto;
+  }
+  main section .F_articl #imgmain img {
+    width: 100%;
+  }
+  main section .F_articl #textDescription {
+    position: inherit;
+    text-align: center;
+    width: 100%;
+    height: 352px;
+  }
+  main section .F_articl #textDescription h2 {
+    margin: auto;
+    font-size: 33px;
+    margin-top: 34px;
+  }
+  main section .F_articl #textDescription p {
+    margin: auto;
+    color: gray;
+  }
+  /**/
+  main section .bigBar {
+    display: initial;
+  }
+  main section .bigBar #titlSell {
+    width: 100%;
+    text-align: center;
+  }
+  main section .bigBar #titlSell h2 {
+    font-size: 40px;
+  }
+  main section .bigBar #buttonSell {
+    width: 100%;
+    text-align: center;
+  }
+  main section .bigBar #buttonSell input {
+    float: none;
+    margin-top: 23px;
+  }
+  /**/
+
+  main section .creations .Row1 {
+    display: initial;
+    height: auto;
+    width: 100%;
+    margin-top: 75px;
+  }
+  main section .creations .Row1 #crea1 {
+    background-image: url("mobile/image-deep-earth.jpg");
+    width: 100%;
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row1 #crea2 {
+    background-image: url("mobile/image-night-arcade.jpg");
+    width: 100%;
+
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row1 #crea3 {
+    background-image: url("mobile/image-soccer-team.jpg");
+    width: 100%;
+    margin-right: 5%;
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row1 #crea4 {
+    background-image: url("mobile/image-grid.jpg");
+    width: 100%;
+    margin-right: 5%;
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row2 {
+    display: initial;
+    height: auto;
+    width: 100%;
+    margin-top: 75px;
+  }
+  main section .creations .Row2 #crea5 {
+    background-image: url("mobile/image-from-above.jpg");
+
+    width: 100%;
+
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row2 #crea6 {
+    background-image: url("mobile/image-pocket-borealis.jpg");
+    width: 100%;
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row2 #crea7 {
+    background-image: url("mobile/image-curiosity.jpg");
+    width: 100%;
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row2 #crea8 {
+    background-image: url("mobile/image-fisheye.jpg");
+    width: 100%;
+
+    height: 140px;
+    background-size: cover;
+  }
+  main section .creations .Row1 #crea1 p,
+  main section .creations .Row1 #crea2 p,
+  main section .creations .Row1 #crea3 p,
+  main section .creations .Row1 #crea4 p,
+  main section .creations .Row2 #crea5 p,
+  main section .creations .Row2 #crea6 p,
+  main section .creations .Row2 #crea7 p,
+  main section .creations .Row2 #crea8 p {
+    margin-top: 30px;
+  }
+
+  main section .creations .Row1 #crea1 p:hover {
+    color: black;
+  }
+}
